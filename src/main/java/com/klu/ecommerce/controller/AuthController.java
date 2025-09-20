@@ -7,9 +7,9 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins="*")
+@CrossOrigin(origins = "*")
 public class AuthController {
-    private final UserService userService;
+    private final UserService userService; 
 
     public AuthController(UserService userService) {
         this.userService = userService;
