@@ -9,7 +9,7 @@ import java.util.Map;
 @RequestMapping("/auth")
 @CrossOrigin(origins = "*")
 public class AuthController {
-    private final UserService userService; 
+    private final UserService userService;
 
     public AuthController(UserService userService) {
         this.userService = userService;
